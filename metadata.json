@@ -1,0 +1,6 @@
+{
+  "name": "第九章 登山風險管理｜亞馬遜國家山岳協會",
+  "description": "亞馬遜國家山岳協會第九章登山教育教材，介紹登山風險辨識、風險矩陣、FMEA、Swiss Cheese Model、常見登山風險、風險控制與領隊風險管理流程，建立系統性的安全登山方法。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
