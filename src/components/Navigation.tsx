@@ -60,13 +60,17 @@ export const Navigation: React.FC<NavigationProps> = ({ activeId }) => {
       <header className="sticky top-0 z-40 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Brand & Chapter Identification */}
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400">
+          <a
+            href="https://amazon-hike.com/"
+            className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 rounded-lg transition-opacity hover:opacity-90"
+            title="亞馬遜國家山岳協會"
+          >
+            <div className="w-9 h-9 rounded-lg bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 group-hover:border-amber-400 transition-colors">
               <Compass className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-bold text-slate-100 text-sm sm:text-base tracking-wide">
+                <span className="font-bold text-slate-100 text-sm sm:text-base tracking-wide group-hover:text-amber-300 transition-colors">
                   亞馬遜國家山岳協會
                 </span>
                 <span className="hidden sm:inline-block px-1.5 py-0.5 text-[11px] font-semibold bg-amber-500/20 text-amber-300 rounded border border-amber-500/30">
@@ -77,7 +81,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeId }) => {
                 Amazon National Alpine Association · 登山教育教材
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Quick navigation anchor / Mobile toggle */}
           <div className="flex items-center gap-2">
