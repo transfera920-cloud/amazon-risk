@@ -73,9 +73,6 @@ export const Navigation: React.FC<NavigationProps> = ({ activeId }) => {
                 <span className="font-bold text-slate-100 text-sm sm:text-base tracking-wide group-hover:text-amber-300 transition-colors">
                   亞馬遜國家山岳協會
                 </span>
-                <span className="hidden sm:inline-block px-1.5 py-0.5 text-[11px] font-semibold bg-amber-500/20 text-amber-300 rounded border border-amber-500/30">
-                  Ch. 09 / 16
-                </span>
               </div>
               <p className="text-[11px] text-slate-400">
                 Amazon National Alpine Association · 登山教育教材

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Diagram01Overview } from './diagrams/Diagram01Overview';
-import { Shield, Compass, Mountain } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -48,27 +48,9 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Badges */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-6">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-slate-900 border border-slate-700 text-slate-300">
-            <Mountain className="w-3.5 h-3.5 text-amber-400" />
-            Amazon National Alpine Association
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 border border-amber-500/30 text-amber-300">
-            <Compass className="w-3.5 h-3.5" />
-            亞馬遜國家山岳協會
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700">
-            Ch. 09 / 16
-          </span>
-          <span className="text-xs font-medium text-slate-400">
-            登山教育教材 Chapter 09
-          </span>
-        </div>
-
         {/* Sole H1 of the entire page */}
         <h1 className="text-3xl sm:text-5xl font-black text-slate-100 tracking-tight leading-tight sm:leading-none mb-4">
-          第九章 登山風險管理
+          登山風險管理
         </h1>
 
         {/* Subtitle */}

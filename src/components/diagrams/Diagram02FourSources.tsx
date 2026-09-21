@@ -13,8 +13,8 @@ export const Diagram02FourSources: React.FC = () => {
       <div className="flex items-center justify-between mb-4 border-b border-slate-800/80 pb-3">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-          <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase">
-            SVG 02｜四大風險來源
+          <span className="text-xs font-semibold tracking-wider text-amber-400">
+            四大風險來源
           </span>
         </div>
         <span className="text-xs text-slate-400">環境 · 人員 · 裝備 · 管理</span>

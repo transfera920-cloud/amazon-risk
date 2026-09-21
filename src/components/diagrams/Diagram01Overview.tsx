@@ -11,8 +11,8 @@ export const Diagram01Overview: React.FC = () => {
       <div className="flex items-center justify-between mb-4 border-b border-slate-800/80 pb-3">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-          <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase">
-            SVG 01｜教材圖解
+          <span className="text-xs font-semibold tracking-wider text-amber-400">
+            教材圖解
           </span>
         </div>
         <span className="text-xs text-slate-400">登山風險管理核心邏輯總覽</span>

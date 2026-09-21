@@ -15,8 +15,8 @@ export const Diagram10CaseAnalysis: React.FC = () => {
       <div className="flex items-center justify-between mb-4 border-b border-slate-800/80 pb-3">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-          <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase">
-            SVG 10｜登山事故案例三維系統分析模型
+          <span className="text-xs font-semibold tracking-wider text-amber-400">
+            登山事故案例三維系統分析模型
           </span>
         </div>
         <span className="text-xs text-slate-400">事件 · 原因 · 改善（去個人化/重系統化）</span>

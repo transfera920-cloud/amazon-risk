@@ -12,8 +12,8 @@ export const Diagram11ClosedLoopSystem: React.FC = () => {
       <div className="flex items-center justify-between mb-4 border-b border-slate-800/80 pb-3">
         <div className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-          <span className="text-xs font-semibold tracking-wider text-amber-400 uppercase">
-            SVG 11｜登山風險管理全章系統閉環總覽
+          <span className="text-xs font-semibold tracking-wider text-amber-400">
+            登山風險管理全章系統閉環總覽
           </span>
         </div>
         <span className="text-xs text-slate-400">系統化安全循環與事故預防</span>
