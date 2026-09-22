@@ -1,7 +1,0 @@
-# robots.txt for Amazon National Alpine Association - Chapter 09
-User-agent: *
-Allow: /
-
-# Sitemap definition
-Sitemap: https://amazon-hike.com/chapter09/sitemap.xml
-
