@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Sitemap definition
-Sitemap: https://chapter09.amazon-hike.com/sitemap.xml
+Sitemap: https://amazon-hike.com/chapter09/sitemap.xml
 
